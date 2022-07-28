@@ -6,3 +6,17 @@
 .carousel-heading-top {
     top: 30%;
 }
+
+.student-feedback-img {
+    width: 55px;
+    height: 55px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: gold;
+}
+
+.feedback-contron-icon {
+    width: 0%;
+}
