@@ -1,3 +1,8 @@
+/* Carousel */
+.carosel-container {
+    padding-top: 100px;
+}
+
 .cover-images {
     filter: brightness(50%);
     height: 75vh !important;
@@ -7,11 +12,19 @@
     top: 30%;
 }
 
+/* Most Popular Course */
+.popular-course img {
+    height: 150px;
+    width: 200px;
+}
+
+/* Student feedback */
 .student-feedback-img {
     width: 55px;
     height: 55px;
 }
 
+/* Footer Social Icon */
 .fa-star,
 .fa-star-half-stroke {
     color: gold;
@@ -20,3 +33,34 @@
 .feedback-contron-icon {
     width: 0%;
 }
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter {
+    font-size: 30px;
+}
+
+/* Join With Us */
+@media (max-width: 576) {
+    header {
+        width: 100%;
+    }
+
+    .sm-text-align {
+        text-align: center;
+    }
+
+    .image-courses-div {
+        width: 100%;
+    }
+
+    .popular-course img {
+        width: 100%;
+    }
+
+    .accordion-panel-width {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768; ) {}
