@@ -1,0 +1,8 @@
+.cover-images {
+    filter: brightness(50%);
+    height: 75vh !important;
+}
+
+.carousel-heading-top {
+    top: 30%;
+}
