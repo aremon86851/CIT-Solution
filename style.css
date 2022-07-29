@@ -58,9 +58,6 @@
         width: 100%;
     }
 
-    .accordion-panel-width {
-        width: 100% !important;
-    }
 }
 
 @media (min-width: 577) and (max-width: 768) {}
